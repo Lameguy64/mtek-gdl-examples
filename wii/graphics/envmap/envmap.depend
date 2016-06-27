@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1444286463 source:c:\mtek-gdl\examples\wii\graphics\envmap\main.cpp
+	<mgdl-wii.h>
+	<wiiuse/wpad.h>
+	"..\..\common\plylib.cpp"
+
+1439239540 c:\mtek-gdl\examples\wii\common\plylib.cpp
+	"plylib.h"
+
+1426804938 c:\mtek-gdl\examples\wii\common\plylib.h
+
+1440462428 c:\mtek-gdl\include\mgdl-wii.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<malloc.h>
+	<gccore.h>
+	<fat.h>
+	<oggplayer.h>
+	"mgdl-wii/mgdl-config.h"
+	"mgdl-wii/mgdl-types.h"
+	"mgdl-wii/mgdl-globals.h"
+	"mgdl-wii/mgdl-main.h"
+	"mgdl-wii/mgdl-basic.h"
+	"mgdl-wii/mgdl-texture.h"
+	"mgdl-wii/mgdl-image.h"
+	"mgdl-wii/mgdl-sprites.h"
+	"mgdl-wii/mgdl-font.h"
+	"mgdl-wii/mgdl-sound.h"
+
+1444286265 c:\mtek-gdl\include\mgdl-wii\mgdl-config.h
+	<valloc.h>
+
+1444163994 c:\mtek-gdl\include\mgdl-wii\mgdl-types.h
+	<gccore.h>
+
+1443237158 c:\mtek-gdl\include\mgdl-wii\mgdl-globals.h
+
+1444284790 c:\mtek-gdl\include\mgdl-wii\mgdl-main.h
+
+1443154170 c:\mtek-gdl\include\mgdl-wii\mgdl-basic.h
+
+1443245534 c:\mtek-gdl\include\mgdl-wii\mgdl-texture.h
+
+1443245867 c:\mtek-gdl\include\mgdl-wii\mgdl-image.h
+	<png.h>
+	"mgdl-wii/mgdl-texture.h"
+
+1443245892 c:\mtek-gdl\include\mgdl-wii\mgdl-sprites.h
+
+1443155004 c:\mtek-gdl\include\mgdl-wii\mgdl-font.h
+
+1443246229 c:\mtek-gdl\include\mgdl-wii\mgdl-sound.h
+	<gccore.h>
+	"mgdl-wii/mgdl-config.h"
+

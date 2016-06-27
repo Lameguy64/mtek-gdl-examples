@@ -1,0 +1,12 @@
+[ID]
+Text=TRprofile
+
+[SpriteMapper]
+; Note: It is best to use absolute file and directory paths
+SpriteMapFile	="\mtek-gdl\examples\testdata\test_sprites.tsm"
+SheetsDir	="\mtek-gdl\examples\testdata\"
+NamesFile	="\mtek-gdl\examples\minigames\whack-a-cirra\include\names.h"
+
+WindowXsize=800
+WindowYsize=600
+WindowRefresh=60

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1443248304 source:c:\mtek-gdl\examples\wii\devices\usbmouse\main.cpp
+	<mgdl-wii.h>
+	<mgdl-wii/mgdl-input.h>
+	<ogc/usbmouse.h>
+

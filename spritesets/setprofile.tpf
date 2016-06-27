@@ -1,0 +1,12 @@
+[ID]
+Text=TRprofile
+
+[SpriteMapper]
+; Note: It is best to use absolute file and directory paths
+SpriteMapFile	="\mtek-gdl\examples\testdata\pinkie_sprites.tsm"
+NamesFile	=""
+SheetsDir	="\mtek-gdl\examples\testdata\"
+
+WindowXsize=800
+WindowYsize=600
+WindowRefresh=60

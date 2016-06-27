@@ -1,0 +1,26 @@
+Cross-platform examples:
+	simple2d		 - Simple 2D graphics example.
+	spritesets		 - Sprite system example with an animated Pinkie Pie sprite.
+
+Cross-platform minigames:
+	minigames/whack-a-cirra	 - A silly (but gory) minigame example, makes use of most of the features in MTek-GDL.
+	
+Wii examples:
+	wii/graphics/3dsample	 - 3D Stanford PLY model viewer example complete with texture mapping and lighting.
+	wii/graphics/mipmap	 - Mipmapped texture mapping example.
+	wii/graphics/tilemap	 - Low-level 2D tilemap rendering engine example.
+	wii/graphics/displaylist - Display list example.
+	wii/audio/oggscope	 - Ogg player example with scope visualization.
+	wii/devices/wiimote	 - Wiimote & Nunchuk example.
+	wii/system/threads	 - Simple thread example.
+	wii/system/valloctest	 - MEM2 memory management example.
+	wii/template		 - Contains template file(s) for starting a new project with MTek-GDL.
+
+Miscellaneous:
+	testdata		- Directory containing files used by most of the examples.
+
+Notes:
+	
+	When running any of the Wii examples, you must first copy the 'testdata' folder into the root of your SD card or USB drive.
+	
+	Remember to always use the makefile inside the wii/template folder whenever you want to start a new project.

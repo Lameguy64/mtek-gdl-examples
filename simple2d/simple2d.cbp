@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="simple2d" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release (PC)">
+				<Option output="simple2d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DGLEW_STATIC" />
+					<Add option="-DPLATFORM_PC" />
+					<Add directory="C:/mtek-gdl/include" />
+					<Add directory="C:/SFML-2.1/include" />
+					<Add directory="C:/glew-1.11.0/include" />
+					<Add directory="C:/glfw-3.1.1.bin.WIN32/include" />
+				</Compiler>
+				<Linker>
+					<Add library="libmgdl.a" />
+					<Add library="C:\glew-1.12.0\lib\Release\Win32\glew32s.lib" />
+					<Add library="libglu32.a" />
+					<Add library="libsfml-audio-s.a" />
+					<Add library="libsfml-graphics-s.a" />
+					<Add library="libsfml-system-s.a" />
+					<Add library="libglfw3dll.a" />
+					<Add library="libopengl32.a" />
+					<Add directory="C:/mtek-gdl/lib" />
+					<Add directory="C:/SFML-2.1/lib" />
+					<Add directory="C:/glew-1.12.0/lib/Release/Win32" />
+					<Add directory="C:/glfw-3.1.1.bin.WIN32/lib-mingw" />
+				</Linker>
+			</Target>
+			<Target title="Release (Wii)">
+				<Option output="simple2d.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="devkitppc_gnu_gcc_compiler_for_nintendo_wii" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DPLATFORM_WII" />
+					<Add directory="C:/mtek-gdl/include" />
+				</Compiler>
+				<Linker>
+					<Add library="mgdl" />
+					<Add library="valloc" />
+					<Add library="wiiuse" />
+					<Add library="oggplayer" />
+					<Add library="vorbisidec" />
+					<Add library="png" />
+					<Add library="z" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="elf2dol $(PROJECT_NAME).elf $(PROJECT_NAME).dol" />
+					<Add after="wiiload $(PROJECT_NAME).dol" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

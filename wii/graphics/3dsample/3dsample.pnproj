@@ -1,0 +1,1 @@
+<Project name="3dsample"><MagicFolder excludeFiles="*.pnproj;*.pnps;*.bak;*.tmp" excludeFolders="CVS;.svn;.hg;.git" filter="*" name="include" path="include\"><File path="plylib.cpp"></File><File path="plylib.h"></File></MagicFolder><File path="main.cpp"></File><File path="makefile"></File></Project>

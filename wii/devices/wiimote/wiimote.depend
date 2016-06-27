@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1435345792 source:c:\mtek-gdl\examples\wii\devices\wiimote\main.cpp
+	<mgdl-wii.h>
+	<wiiuse/wpad.h>
+	"../../common/wiimote.c"
+
+1432260366 c:\mtek-gdl\examples\wii\common\wiimote.c
+

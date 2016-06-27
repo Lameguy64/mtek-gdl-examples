@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1443241711 source:c:\mtek-gdl\examples\wii\graphics\3dsample\main.cpp
+	<mgdl-wii.h>
+	<wiiuse/wpad.h>
+	"../../common/wiimote.c"
+	<plylib.cpp>
+
+1432263968 c:\mtek-gdl\examples\wii\common\wiimote.c
+
+1426804894 c:\mtek-gdl\examples\wii\graphics\3dsample\include\plylib.cpp
+	<plylib.h>
+
+1426804938 c:\mtek-gdl\examples\wii\graphics\3dsample\include\plylib.h
+

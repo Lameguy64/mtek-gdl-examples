@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="usbkeyboard" />
+		<Option pch_mode="2" />
+		<Option compiler="devkitppc_gnu_gcc_compiler_for_nintendo_wii" />
+		<Build>
+			<Target title="Release">
+				<Option output="usbkeyboard.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="devkitppc_gnu_gcc_compiler_for_nintendo_wii" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DPLATFORM_WII" />
+					<Add directory="C:/mtek-gdl/include" />
+				</Compiler>
+				<Linker>
+					<Add library="mgdl" />
+					<Add library="valloc" />
+					<Add library="wiiuse" />
+					<Add library="oggplayer" />
+					<Add library="vorbisidec" />
+					<Add library="png" />
+					<Add library="z" />
+					<Add library="wiikeyboard" />
+					<Add directory="C:/mtek-gdl/lib/wii" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile $target" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile $target" />
+					<SilentBuild command="$make -f $makefile $target &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/mtek-gdl/include" />
+		</Compiler>
+		<ExtraCommands>
+			<Add after="elf2dol $(PROJECT_NAME).elf $(PROJECT_NAME).dol" />
+			<Add after="wiiload $(PROJECT_NAME).dol" />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

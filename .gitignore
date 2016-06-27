@@ -1,0 +1,8 @@
+*.o
+*.d
+*.a
+*.elf
+*.dol
+*.exe
+*.db
+*.old.*
